@@ -1,0 +1,174 @@
+<html>
+
+<head>
+    <style>
+        .nav {
+            background-color: rgb(54, 50, 50);
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            color: white;
+        }
+
+        input {
+            width: 980px;
+            border-radius: 5px;
+            ;
+        }
+       .fullbody{
+        display: flex;
+        flex-direction: column;
+       }
+       *{
+        margin:0;
+       }
+
+        .sidebar {
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(0, 0, 0);
+            justify-content: left;
+            padding-left: 20px;
+            padding-right: 100px;
+            padding-bottom: 400px;
+            padding-top: 100px;
+
+
+        }
+
+
+
+        .sidebar a {
+            text-decoration: none;
+            color: white;
+            padding: 20px;
+
+        }
+
+        .maincontent {
+            background-color: rgb(239, 236, 236);
+             /* padding-left: 100px; */
+            padding-right:85px; 
+        }
+
+        .fullbody {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: space-around;
+            gap: 20px;
+        }
+
+        .card {
+            background-color: rgb(255, 255, 255);
+            margin: 10px;
+            padding: 50px;
+            border-radius: 10px;
+            width: 275px;
+            height: 40px;
+            
+        }
+
+        .cards2 {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+
+
+        }
+
+        .card2 {
+            border-radius: 10px;
+            background-color: rgb(0, 98, 255);
+            gap: 20px;
+            padding-left: 100px;
+            width: 475px;
+            height: 70px;
+            text-align: center;
+            padding-top: 30px;
+            padding-right:30px;
+        }
+
+        .footer{
+            background-color: rgb(74, 71, 162);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="nav">
+        <div class="logo">
+            FlexDash
+
+        </div>
+
+        <div class="form">
+            <form>
+
+                <input type="search" placeholder="Search dashboard">
+
+            </form>
+        </div>
+
+        <div class="logo">
+            Admin
+        </div>
+
+    </div>
+    
+
+
+
+
+
+    <main class="fullbody">
+        <div class="sidebar">
+            <a href="#"> Dashboard</a>
+            <a href="#"> Analytics</a>
+            <a href="#"> Users</a>
+            <a href="#"> Reports</a>
+
+            <a href="#"> Settings</a>
+
+
+
+        </div>
+
+        <div class="maincontent">
+            <div class="cards">
+                <div class="card"> user </div>
+                <div class="card"> user </div>
+
+                <div class="card"> user </div>
+
+
+
+            </div>
+
+            <div class="cards2">
+                <div class="card2"> growth </div>
+                <div class="card2"> conversion </div>
+
+            </div>
+
+
+        </div>
+    </main>
+
+    <div class = "footer">
+        @ 2026 Flexbox dashboard - student practical task
+
+    </div>
+</body>
+
+</html>
